@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.devi.multiscreens">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Numbers"
+            android:label="NUMBERS"
+            android:parentActivityName=".Numbers" />
+        <activity
+            android:name=".Family"
+            android:label="FAMILY"
+            android:parentActivityName=".Family" />
+        <activity
+            android:name=".colors"
+            android:label="COLORS"
+            android:parentActivityName=".colors" />
+        <activity
+            android:name=".phrases"
+            android:label="Phrases"
+            android:parentActivityName=".phrases" />
+        <activity
+            android:name=".Fruits"
+            android:label="FRUITS"
+            android:parentActivityName=".Fruits" />
+        <activity
+            android:name=".Alpha"
+            android:label="ALPHABETS"
+            android:parentActivityName=".Alpha" />
+        <activity
+            android:name=".Vegetables"
+            android:label="VEGETABLES"
+            android:parentActivityName=".Vegetables"
+            />
+        <activity android:name=".Contactus"
+            android:label="CONTACT US"
+            android:parentActivityName=".Contactus"
+
+            ></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">KinderJoy</string>
+    <string name="feedback">feedback</string>
+    <string name="contact">contactus</string>
+    <string name="refresh">refresh</string>
+    <string name="help">Help</string>
+    <string name="offline">Make avaliable offline</string>
+</resources>
